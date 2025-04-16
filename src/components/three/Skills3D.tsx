@@ -18,7 +18,7 @@ const Skills3D = ({ skills }: Skills3DProps) => {
   const [hovered, setHovered] = useState<number | null>(null)
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
 
-  useFrame((state) => {
+  useFrame(() => {
     if (groupRef.current) {
       groupRef.current.rotation.y += 0.002
     }

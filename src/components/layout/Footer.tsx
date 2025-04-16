@@ -17,7 +17,7 @@ const Footer = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
         >
-          {socialLinks.map((link, index) => (
+          {socialLinks.map((link) => (
             <a
               key={link.name}
               href={link.url}

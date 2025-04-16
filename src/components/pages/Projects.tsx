@@ -4,7 +4,7 @@ import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import Text3D from '../three/Text3D'
 import styles from '../../styles/pages/Projects.module.css'
-import { FaGithub, FaExternalLinkAlt, FaCode, FaServer, FaMobileAlt, FaDatabase } from 'react-icons/fa'
+import { FaExternalLinkAlt, FaCode, FaServer, FaMobileAlt, FaDatabase } from 'react-icons/fa'
 import { HiOutlineLightBulb, HiOutlineSparkles } from 'react-icons/hi'
 
 const projects = [

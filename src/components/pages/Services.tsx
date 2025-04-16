@@ -5,7 +5,7 @@ import { OrbitControls } from '@react-three/drei'
 import Text3D from '../three/Text3D'
 import styles from '../../styles/pages/Services.module.css'
 import { FaCode, FaServer, FaMobileAlt, FaDatabase, FaCloud, FaShieldAlt } from 'react-icons/fa'
-import { HiOutlineLightBulb, HiOutlineSparkles, HiOutlineGlobeAlt } from 'react-icons/hi'
+import {  HiOutlineSparkles } from 'react-icons/hi'
 
 const services = [
   {
